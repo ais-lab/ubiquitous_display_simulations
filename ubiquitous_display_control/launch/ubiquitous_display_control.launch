@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!--<rosparam file="$(find ubiquitous_display_control)/config/ubiquitous_display_controller.yaml" command="load"/> -->
+  <rosparam file="$(find ubiquitous_display_control)/config/pantilt_controller.yaml" command="load"/>
+
+  <!-- load the controllers -->
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+	output="screen" ns="/ubiquitous_display" args="joint_state_controller
+					  pan_controller
+					  tilt_controller"/>
+  <!-- convert joint states to TF transforms for rviz, etc -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+    respawn="false" output="screen">
+    <remap from="/joint_states" to="/ubiquitous_display/joint_states" />
+  </node>
+
+</launch>
+
+

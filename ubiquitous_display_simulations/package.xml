@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ubiquitous_display_simulations</name>
+  <version>1.2.0</version>
+  <description>
+    ROS packages for the ubiquitous_display (simulaiton)
+  </description>
+  <license>Apache 2.0</license>
+  <license>BSD</license>
+  <author email="miki.aislab@gmail.com">miki</author>
+  <maintainer email="miki.aislab@gmail.com">miki</maintainer>
+  <url type="website">https://github.com/ais-lab</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>ubiquitous_display_control</exec_depend>
+  <exec_depend>ubiquitous_display_gazebo</exec_depend>
+
+  <export><metapackage/></export>
+</package>
