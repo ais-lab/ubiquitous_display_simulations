@@ -1,3 +1,16 @@
-<include>
-  <uri>model://MYROBOT</uri>
-</include>
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://testworld</uri>
+      <name>testworld</name>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+  </world>
+</sdf>
