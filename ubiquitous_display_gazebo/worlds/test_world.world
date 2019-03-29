@@ -12,5 +12,25 @@
       <name>testworld</name>
       <pose>0 0 0 0 0 0</pose>
     </include>
+    <include>
+      <uri>model://jersey_barrier</uri>
+      <name>jersey_barrier</name>
+      <pose>-2.00 2.54 0 0 0 1.0</pose>
+    </include>
+    <include>
+      <uri>model://cube_20k</uri>
+      <name>cube_20k</name>
+      <pose>2.91 2.55 0 0 0 0.054</pose>
+    </include>
+    <include>
+      <uri>model://table_marble</uri>
+      <name>table_marble</name>
+      <pose>-2.18 -2.70 0.648 0 0 -0.55</pose>
+    </include> 
+    <include>
+      <uri>model://first_2015_trash_can</uri>
+      <name>first_2015_trash_can</name>
+      <pose>2.40 -3.37 0 0 0 0</pose>
+    </include>    
   </world>
 </sdf>
