@@ -31,6 +31,12 @@
       <uri>model://first_2015_trash_can</uri>
       <name>first_2015_trash_can</name>
       <pose>2.40 -3.37 0 0 0 0</pose>
-    </include>    
+    </include>
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose>0.8 0.0 12.0 0 1.5708 0</pose>
+        <view_controller>orbit</view_controller>
+      </camera>
+    </gui>    
   </world>
 </sdf>
