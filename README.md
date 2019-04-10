@@ -12,5 +12,3 @@ $source ~/.bashrc
 
 $source ~/catkin_ws/devel/setup.bash
 
-
-gazeboの[Insert]タブからubiquitous_displayを追加する
