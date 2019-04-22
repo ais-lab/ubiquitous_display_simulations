@@ -12,3 +12,5 @@ $source ~/.bashrc
 
 $source ~/catkin_ws/devel/setup.bash
 
+モデルの追加
+hg clone https://bitbucket.org/osrf/gazebo_models ~/.gazebo/models
