@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://corridor_test</uri>
+      <name>corridor_test</name>
+      <pose>1.736 2.3905 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://salon</uri>
+      <name>salon</name>
+      <pose>-7.00 -0.6754 0 0 0 1.57</pose>
+    </include>
+    <!-- <include>
+      <uri>model://prius_hybrid</uri>
+      <name>prius_hybrid</name>
+      <pose>7.254 12.00 0.01 0 0 0</pose>
+    </include> -->
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose>0.8 0.0 12.0 0 1.5708 0</pose>
+        <view_controller>orbit</view_controller>
+      </camera>
+    </gui>
+  </world>
+</sdf>
