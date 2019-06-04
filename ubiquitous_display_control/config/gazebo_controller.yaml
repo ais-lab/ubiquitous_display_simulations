@@ -1,0 +1,16 @@
+gazebo_ros_control:
+  pid_gains:
+    pan_joint:
+      p: 100000.0
+      i: 1000.0
+      d: 100.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    tilt_joint:
+      p: 100000.0
+      i: 1000.0
+      d: 500.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
