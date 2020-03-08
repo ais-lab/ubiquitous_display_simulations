@@ -1,16 +1,4 @@
 # ubiquitous_display_simulations
 
-$sudo apt-get install ros-kinetic-ros-control ros-kinetic-ros-controllers
 
-$sudo apt-get install ros-kinetic-gazebo-ros-control
-
-$gedit ~/.bashrc
-
-export GAZEBO_MODEL_PATH=/home/users/catkin_ws/src/ubiquitous_display_simulations/ubiquitous_display_gazebo/models
-
-$source ~/.bashrc
-
-$source ~/catkin_ws/devel/setup.bash
-
-モデルの追加
-hg clone https://bitbucket.org/osrf/gazebo_models ~/.gazebo/models
+このパッケージのインストール方法や実行方法は[こちら](https://github.com/ais-lab/ubiquitous_display_simulations/wiki)
