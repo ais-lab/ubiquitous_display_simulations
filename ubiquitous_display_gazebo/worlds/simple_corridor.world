@@ -10,8 +10,10 @@
     <include>
       <uri>model://simple_corridor</uri>
       <name>simple_corridor</name>
-      <pose>0 0 0 0 0 0</pose>
+      <pose>0 0 0 0 0 1.57</pose>
     </include>
+
+
 	<actor name="actor">
 	 <skin>
 	    <filename>moonwalk.dae</filename>
@@ -30,131 +32,11 @@
 	    <trajectory id="0" type="walking">
 	       <waypoint>
 		  <time>0.000000</time>
-		  <pose>3.000000 11.000000 0.000000 0.000000 0.000000 -1.570000</pose>
+		  <pose>8.000000 2.000000 0.000000 0.000000 0.000000 3.140000</pose>
 	       </waypoint>
-	       <waypoint>
-		  <time>0.500000</time>
-		  <pose>3.000000 10.500000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>1.000000</time>
-		  <pose>3.000000 10.000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>1.500000</time>
-		  <pose>3.000000 9.500000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>2.000000</time>
-		  <pose>3.000000 9.000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>2.500000</time>
-		  <pose>3.000000 8.500000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>3.000000</time>
-		  <pose>3.000000 8.000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>3.500000</time>
-		  <pose>3.000000 7.500000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>4.000000</time>
-		  <pose>3.000000 7.000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>4.500000</time>
-		  <pose>3.000000 6.500000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>5.000000</time>
-		  <pose>3.000000 6.000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>5.500000</time>
-		  <pose>3.000000 5.500000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>6.000000</time>
-		  <pose>3.000000 5.000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>6.500000</time>
-		  <pose>3.000000 4.500000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>7.500000</time>
-		  <pose>3.000000 4.000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>8.500000</time>
-		  <pose>3.000000 3.500000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>9.500000</time>
-		  <pose>3.000000 3.000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>10.500000</time>
-		  <pose>3.000000 2.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>11.500000</time>
-		  <pose>3.000000 2.0000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>12.000000</time>
-		  <pose>3.000000 1.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>-
-	       <waypoint>
-		  <time>12.500000</time>
-		  <pose>3.000000 1.0000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>13.000000</time>
-		  <pose>3.000000 0.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>13.500000</time>
-		  <pose>3.000000 0.0000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>14.000000</time>
-		  <pose>3.000000 -0.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>14.500000</time>
-		  <pose>3.000000 -1.0000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>15.000000</time>
-		  <pose>3.000000 -1.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>15.500000</time>
-		  <pose>3.000000 -2.0000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>16.000000</time>
-		  <pose>3.000000 -2.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>16.500000</time>
-		  <pose>3.000000 -3.0000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>17.000000</time>
-		  <pose>3.000000 -3.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>17.500000</time>
-		  <pose>3.000000 -4.0000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>18.000000</time>
-		  <pose>3.000000 -4.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
+         <waypoint>
+		  <time>21.000000</time>
+		  <pose>-4.000000 2.000000 0.000000 0.000000 0.000000 3.140000</pose>
 	       </waypoint>
 	    </trajectory>
 	 </script>
@@ -177,43 +59,11 @@
 	    <trajectory id="0" type="walking">
 	       <waypoint>
 		  <time>0.000000</time>
-		  <pose>-2.000000 7.5.500000 0.000000 0.000000 0.000000 -1.570000</pose>
+		  <pose>10.000000 4.00000 0.000000 0.000000 0.000000 3.140000</pose>
 	       </waypoint>
 	       <waypoint>
-		  <time>1.000000</time>
-		  <pose>-2.000000 6.000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>2.000000</time>
-		  <pose>-2.000000 4.500000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>3.000000</time>
-		  <pose>-2.000000 3.000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>4.000000</time>
-		  <pose>-2.000000 1.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>5.000000</time>
-		  <pose>-2.000000 0.0000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>6.000000</time>
-		  <pose>-2.000000 -1.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>-
-	       <waypoint>
-		  <time>7.500000</time>
-		  <pose>-2.000000 -4.0000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>8.000000</time>
-		  <pose>-2.000000 -5.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>9.000000</time>
-		  <pose>-2.000000 -7.000000 0.000000 0.000000 0.000000 -1.570000</pose>
+		  <time>12.000000</time>
+		  <pose>-2.000000 4.000000 0.000000 0.000000 0.000000 3.140000</pose>
 	       </waypoint>
 	    </trajectory>
 	 </script>
@@ -236,194 +86,69 @@
 	    <trajectory id="0" type="walking">
 	       <waypoint>
 		  <time>0.000000</time>
-		  <pose>2.000000 11.000000 0.000000 0.000000 0.000000 -1.570000</pose>
+		  <pose>6.000000 -3.000000 0.000000 0.000000 0.000000 3.140000</pose>
 	       </waypoint>
 	       <waypoint>
-		  <time>0.500000</time>
-		  <pose>2.000000 10.500000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>1.000000</time>
-		  <pose>2.000000 10.000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>1.500000</time>
-		  <pose>2.000000 9.500000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>2.000000</time>
-		  <pose>2.000000 9.000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>2.500000</time>
-		  <pose>2.000000 8.500000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>3.000000</time>
-		  <pose>2.000000 8.000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>3.500000</time>
-		  <pose>2.000000 7.500000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>4.000000</time>
-		  <pose>2.000000 7.000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>4.500000</time>
-		  <pose>2.000000 6.500000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>5.000000</time>
-		  <pose>2.000000 6.000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>5.500000</time>
-		  <pose>2.000000 5.500000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>6.000000</time>
-		  <pose>2.000000 5.000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>2.500000</time>
-		  <pose>2.000000 4.500000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>7.500000</time>
-		  <pose>2.000000 4.000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>8.500000</time>
-		  <pose>2.000000 3.500000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>9.500000</time>
-		  <pose>2.000000 3.000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>10.500000</time>
-		  <pose>2.000000 2.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>11.500000</time>
-		  <pose>2.000000 2.0000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>12.000000</time>
-		  <pose>2.000000 1.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>-
-	       <waypoint>
-		  <time>12.500000</time>
-		  <pose>2.000000 1.0000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>13.000000</time>
-		  <pose>2.000000 0.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>13.500000</time>
-		  <pose>2.000000 0.0000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>14.000000</time>
-		  <pose>2.000000 -0.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>14.500000</time>
-		  <pose>2.000000 -1.0000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>15.000000</time>
-		  <pose>2.000000 -1.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>15.500000</time>
-		  <pose>2.000000 -2.0000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>16.000000</time>
-		  <pose>2.000000 -2.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>16.500000</time>
-		  <pose>2.000000 -3.0000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>17.000000</time>
-		  <pose>2.000000 -3.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>17.500000</time>
-		  <pose>2.000000 -4.0000000 0.000000 0.000000 0.000000 -1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>18.000000</time>
-		  <pose>2.000000 -4.5000000 0.000000 0.000000 0.000000 -1.570000</pose>
+		  <time>21.000000</time>
+		  <pose>-3.000000 -3.000000 0.000000 0.000000 0.000000 3.140000</pose>
 	       </waypoint>
 	    </trajectory>
 	 </script>
 	</actor>
-	<actor name="actor4">
-	 <skin>
-	    <filename>moonwalk.dae</filename>
-	    <scale>1.0</scale>
-	 </skin>
-	 <pose>0 0 0 0 0 0</pose>
-	 <animation name="walking">
-	    <filename>walk.dae</filename>
-	    <scale>1.000000</scale>
-	    <interpolate_x>true</interpolate_x>
-	 </animation>
-	 <script>
-	    <loop>true</loop>
-	    <delay_start>0.000000</delay_start>
-	    <auto_start>true</auto_start>
-	    <trajectory id="0" type="walking">
-	       <waypoint>
-		  <time>8.000000</time>
-		  <pose>1.000000 7.5.500000 0.000000 0.000000 0.000000 1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>7.000000</time>
-		  <pose>1.000000 6.000000 0.000000 0.000000 0.000000 1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>6.000000</time>
-		  <pose>1.000000 4.500000 0.000000 0.000000 0.000000 1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>5.000000</time>
-		  <pose>1.000000 3.000000 0.000000 0.000000 0.000000 1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>4.000000</time>
-		  <pose>1.000000 1.5000000 0.000000 0.000000 0.000000 1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>3.000000</time>
-		  <pose>1.000000 0.0000000 0.000000 0.000000 0.000000 1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>2.000000</time>
-		  <pose>1.000000 -1.5000000 0.000000 0.000000 0.000000 1.570000</pose>
-	       </waypoint>-
-	       <waypoint>
-		  <time>1.500000</time>
-		  <pose>1.000000 -4.0000000 0.000000 0.000000 0.000000 1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>0.500000</time>
-		  <pose>1.000000 -5.5000000 0.000000 0.000000 0.000000 1.570000</pose>
-	       </waypoint>
-	       <waypoint>
-		  <time>0.000000</time>
-		  <pose>1.000000 -7.000000 0.000000 0.000000 0.000000 1.570000</pose>
-	       </waypoint>
-	    </trajectory>
-	 </script>
-	</actor>
+  <actor name="actor4">
+   <skin>
+      <filename>moonwalk.dae</filename>
+      <scale>1.0</scale>
+   </skin>
+   <pose>0 0 0 0 0 0</pose>
+   <animation name="walking">
+      <filename>walk.dae</filename>
+      <scale>1.000000</scale>
+      <interpolate_x>true</interpolate_x>
+   </animation>
+   <script>
+      <loop>true</loop>
+      <delay_start>0.000000</delay_start>
+      <auto_start>true</auto_start>
+      <trajectory id="0" type="walking">
+         <waypoint>
+      <time>0.000000</time>
+      <pose>10.000000 1.000000 0.000000 0.000000 0.000000 3.140000</pose>
+         </waypoint>
+         <waypoint>
+      <time>18.000000</time>
+      <pose>-3.000000 1.000000 0.000000 0.000000 0.000000 3.140000</pose>
+         </waypoint>
+      </trajectory>
+   </script>
+  </actor>
+  <actor name="actor5">
+   <skin>
+      <filename>moonwalk.dae</filename>
+      <scale>1.0</scale>
+   </skin>
+   <pose>0 0 0 0 0 0</pose>
+   <animation name="walking">
+      <filename>walk.dae</filename>
+      <scale>1.000000</scale>
+      <interpolate_x>true</interpolate_x>
+   </animation>
+   <script>
+      <loop>true</loop>
+      <delay_start>0.000000</delay_start>
+      <auto_start>true</auto_start>
+      <trajectory id="0" type="walking">
+         <waypoint>
+      <time>0.000000</time>
+      <pose>8.000000 -1.000000 0.000000 0.000000 0.000000 3.140000</pose>
+         </waypoint>
+         <waypoint>
+      <time>17.000000</time>
+      <pose>-5.000000 -1.000000 0.000000 0.000000 0.000000 3.140000</pose>
+         </waypoint>
+      </trajectory>
+   </script>
+  </actor>
     <gui fullscreen='0'>
       <camera name='user_camera'>
         <pose>0.8 0.0 12.0 0 1.5708 0</pose>
