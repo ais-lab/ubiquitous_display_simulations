@@ -13,7 +13,6 @@
       <pose>0 0 0 0 0 1.57</pose>
     </include>
 
-
 	<actor name="actor">
 	 <skin>
 	    <filename>moonwalk.dae</filename>
