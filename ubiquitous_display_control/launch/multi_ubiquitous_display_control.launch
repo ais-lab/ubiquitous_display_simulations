@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!--<rosparam file="$(find ubiquitous_display_control)/config/ubiquitous_display_controller.yaml" command="load"/> -->
+  <rosparam file="$(find ubiquitous_display_control)/config/multi_ubiquitous_display_controller.yaml" command="load"/>
+
+  <!-- load the controllers -->
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+	output="screen" ns="/ubiquitous_display" args="joint_state_controller
+					  pan_controller
+					  tilt_controller"/>
+
+  <node name="controller_spawner2" pkg="controller_manager" type="spawner" respawn="false"
+	output="screen" ns="/ubiquitous_display2" args="joint_state_controller
+					  pan_controller
+					  tilt_controller"/>
+  <!-- convert joint states to TF transforms for rviz, etc -->
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen">
+    <param name="publish_frequency" type="double" value="50.0" />
+    <param name="tf_prefix" value="ubiquitous_display" />
+    <remap from="/joint_states" to="/ubiquitous_display/joint_states" />
+  </node>
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen">
+    <param name="publish_frequency" type="double" value="50.0" />
+    <param name="tf_prefix" value="ubiquitous_display2" />
+    <remap from="/joint_states" to="/ubiquitous_display2/joint_states" />
+  </node>
+
+</launch>

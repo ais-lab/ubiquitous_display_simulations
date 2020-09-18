@@ -1,0 +1,38 @@
+<launch>
+  <arg name="model" default="$(find ubiquitous_display_description)/robots/ubiquitous_display_for_gazebo.urdf.xacro"/>
+  <arg name="paused" default="false"/>
+  <arg name="use_sim_time" default="true"/>
+  <arg name="gui" default="true"/>
+  <arg name="headless" default="false"/>
+  <arg name="debug" default="false"/>
+  <arg name="x_pos" default="0.0"/>
+  <arg name="y_pos" default="0.0"/>
+  <arg name="z_pos" default="0.0"/>
+
+  <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find ubiquitous_display_gazebo)/worlds/train_world.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+    <!-- more default parameters can be changed here -->
+  </include>
+
+  <group ns = "ubiquitous_display">
+    <param name="robot_description" command="$(find xacro)/xacro $(find ubiquitous_display_description)/robots/ubiquitous_display_for_gazebo.urdf.xacro" />
+
+    <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-urdf -model ubiquitous_display -x 0.0 -y 0.0 -z 0.0 -Y 0.0 -param robot_description" />
+  </group>
+
+  <group ns = "ubiquitous_display2">
+    <param name="robot_description2" command="$(find xacro)/xacro $(find ubiquitous_display_description)/robots/ubiquitous_display_for_gazebo.urdf.xacro" />
+
+    <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-urdf -model ubiquitous_display2 -x 2.0 -y 2.0 -z 0.0 -Y 0.0 -param robot_description" />
+  </group>
+  <!-- ros_control motoman launch file -->
+  <include file="$(find ubiquitous_display_control)/launch/multi_ubiquitous_display_control.launch"/>
+
+
+</launch>
