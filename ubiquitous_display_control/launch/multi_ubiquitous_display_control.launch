@@ -15,7 +15,7 @@
 					  pan_controller
 					  tilt_controller"/>
   <!-- convert joint states to TF transforms for rviz, etc -->
-  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen">
+  <!-- <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen">
     <param name="publish_frequency" type="double" value="50.0" />
     <param name="tf_prefix" value="ubiquitous_display" />
     <remap from="/joint_states" to="/ubiquitous_display/joint_states" />
@@ -24,6 +24,6 @@
     <param name="publish_frequency" type="double" value="50.0" />
     <param name="tf_prefix" value="ubiquitous_display2" />
     <remap from="/joint_states" to="/ubiquitous_display2/joint_states" />
-  </node>
+  </node> -->
 
 </launch>
